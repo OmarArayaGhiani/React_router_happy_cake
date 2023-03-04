@@ -1,0 +1,26 @@
+section img {
+    width: 70%;
+    border: 2px solid rgb(201, 104, 104);
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+@media (min-width: 1200px) {
+    section {
+        display: flex;
+        width: 1000px;
+        height: 450px;
+    }
+
+    section img {
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        transition: 1s ease;
+        margin: 0px 5px;
+    }
+
+    section img:hover {
+        width: 600px;
+    }
+}

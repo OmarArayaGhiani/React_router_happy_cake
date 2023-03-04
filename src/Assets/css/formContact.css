@@ -1,0 +1,9 @@
+.formWidth {
+    width: 75%;
+}
+
+@media (min-width: 992px){
+    .formWidth {
+    width: 50%;
+}
+}
